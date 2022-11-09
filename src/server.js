@@ -3,6 +3,7 @@ const ejs = require("ejs");
 const path = require("path");
 const puppeteer = require("puppeteer");
 const app = express();
+const worker = require("worker_threads");
 
 const passengers = [
   {
